@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa I</title>
+    <title> tabuada </title>
 </head>
 <body>
     <script>
 
-       function pulaLinha(){
+function pulaLinha(){
         document.write('<br><br>')
        }
 
@@ -17,7 +17,15 @@
         document.write(texto)
         pulaLinha()
        }
-        
-    </script>
+
+let numeroInicial = 0
+
+    while(numeroInicial <= 80){
+        mostra(`${numeroInicial}`)
+        numeroInicial = numeroInicial + 8
+    }
+
+</script>
+    
 </body>
 </html>
